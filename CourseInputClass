@@ -1,0 +1,12 @@
+public class CourseInput extends OfferedCourse {
+    public static void main(String[] args) {
+        CourseInput newCourse = new CourseInput();
+        newCourse.setCourseNumber("ECE287");
+        newCourse.setCourseTitle("Digital Systems Design");
+        newCourse.setInstructorName("Mark Patterson");
+        newCourse.setLocation("Wilson Hall 231");
+        newCourse.setClassTime("WF: 2-3:30pm");
+
+        newCourse.PrintInfo();
+    }
+}
