@@ -30,6 +30,9 @@ public class OfferedCourse extends Course {
 @Override
     public void PrintInfo(){
         super.PrintInfo();
+        System.out.println("Course Information:");
+        System.out.println("\tCourse Number: " + getCourseNumber());
+        System.out.println("\tCourse Title: " + getCourseTitle());
         System.out.println("\tInstructor Name: " + getInstructorName());
         System.out.println("\tLocation: " + getLocation());
         System.out.println("\tClass Time: " + getClassTime());
